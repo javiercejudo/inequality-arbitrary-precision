@@ -1,6 +1,6 @@
 {
   "name": "inequality-arbitrary-precision",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "inequality operations abstraction to extend core-arbitrary-precision",
   "main": "src/index.js",
   "scripts": {
