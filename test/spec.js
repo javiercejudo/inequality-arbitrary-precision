@@ -91,9 +91,9 @@ describe('gte', function() {
   it('a ≥ b', gteTest(Decimal));
 });
 
-describe('cpm', function() {
+describe('cmp', function() {
   var Decimal = arbitraryPrecisionFactory(adapter);
   Decimal = cpmparisonEnhancers.cmp(Decimal);
 
-  it('a ?? b', cmpTest(Decimal));
+  it('a ⊥ b', cmpTest(Decimal));
 });
