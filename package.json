@@ -1,0 +1,40 @@
+{
+  "name": "inequality-arbitrary-precision",
+  "version": "0.0.0",
+  "description": "inequality operations abstraction to extend core-arbitrary-precision",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiercejudo/inequality-arbitrary-precision.git"
+  },
+  "keywords": [
+    "precision",
+    "arbitrary precision",
+    "arbitrary-precision-op"
+  ],
+  "author": "Javier Cejudo <javier@javiercejudo.com> (http://www.javiercejudo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiercejudo/inequality-arbitrary-precision/issues"
+  },
+  "homepage": "https://github.com/javiercejudo/inequality-arbitrary-precision#readme",
+  "devDependencies": {
+    "core-arbitrary-precision": "^2.1.0",
+    "floating": "^2.0.0",
+    "floating-adapter": "^1.4.0",
+    "gulp": "^3.9.0",
+    "gulp-coverage": "^0.3.38",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-mocha": "^2.1.3",
+    "lodash.flow": "^3.3.0",
+    "rimraf": "^2.4.3",
+    "should": "^8.3.1"
+  },
+  "dependencies": {
+    "binary-op-arbitrary-precision": "^1.4.0"
+  }
+}
