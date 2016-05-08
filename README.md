@@ -28,6 +28,6 @@ new Decimal('12').lt(new Decimal('5')); // => false
 
 Operations: `gt`, `gte`, `lt`, `lte`, `cmp` (-1, 0, 1).
 
-Individual extenders can be applied as `inequalityEnhancer.lt(Decimal)`;
+Individual extenders can be applied as `inequalityEnhancer.lt(Decimal)`.
 
 See [spec](test/spec.js).
