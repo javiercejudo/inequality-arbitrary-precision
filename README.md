@@ -12,6 +12,7 @@ Inequality operations abstraction to extend [core-arbitrary-precision](https://g
 
 ## Adapters
 
+- [[adapter]](https://github.com/javiercejudo/decimaljs-adapter) [[lib]](https://github.com/MikeMcl/decimal.js) decimal.js
 - [[adapter]](https://github.com/javiercejudo/floating-adapter) [[lib]](https://github.com/javiercejudo/floating) floating
 
 ## Usage
